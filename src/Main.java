@@ -49,44 +49,28 @@ public class Main {
 
         int monthNumber = 13;
         switch (monthNumber){
+            case 12:
             case 1:
-                System.out.println(theTimeOfTheYearIsWinter);
-                break;
             case 2:
                 System.out.println(theTimeOfTheYearIsWinter);
                 break;
             case 3:
-                System.out.println(theTimeOfTheYearIsWinterSpring);
-                break;
             case 4:
-                System.out.println(theTimeOfTheYearIsWinterSpring);
-                break;
             case 5:
                 System.out.println(theTimeOfTheYearIsWinterSpring);
                 break;
             case 6:
-                System.out.println(theTimeOfTheYearIsSummer);
-                break;
             case 7:
-                System.out.println(theTimeOfTheYearIsSummer);
-                break;
             case 8:
                 System.out.println(theTimeOfTheYearIsSummer);
                 break;
             case 9:
-                System.out.println(theTimeOfTheYearIsAutumn);
-                break;
             case 10:
-                System.out.println(theTimeOfTheYearIsAutumn);
-                break;
             case 11:
                 System.out.println(theTimeOfTheYearIsAutumn);
                 break;
-            case 12:
-                System.out.println(theTimeOfTheYearIsWinter);
-                break;
             default:
-                System.out.println("Нет такого времени года");
+                System.out.println("Нет такого времени года нет");
         }
     }
 }
